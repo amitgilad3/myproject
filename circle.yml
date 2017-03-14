@@ -6,3 +6,7 @@ machine:
 dependencies:
   post:
     - npm install -g bit-bin
+
+test:
+  override:
+    - "true"
