@@ -4,6 +4,7 @@ node_js:
   - '7'
 
 before_script:
+  - npm install -g npm
   - sudo apt-get install -qq python-numpy python-scipy
   - npm install -g bit-bin
 
