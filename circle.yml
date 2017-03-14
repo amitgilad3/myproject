@@ -1,0 +1,15 @@
+general:
+  branches:
+    master
+ 
+machine:
+  node:
+    version: 6
+
+
+  override:
+    - which node
+
+    # install dependencies
+    - npm install bit-bin
+
