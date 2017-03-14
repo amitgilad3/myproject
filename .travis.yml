@@ -4,6 +4,7 @@ node_js:
 
 before_script:
   - node --version
+  - npm install -g node-gyp
   - node-gyp -v
 
 script:
