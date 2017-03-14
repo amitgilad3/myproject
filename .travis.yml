@@ -11,6 +11,7 @@ script:
   - npm install -g bit-bin
 
 before_install:
+  - sudo apt-get update -y
   - sudo apt-get install build-essential -y
   - node --version
 
