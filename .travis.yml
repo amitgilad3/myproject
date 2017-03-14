@@ -4,6 +4,7 @@ node_js:
   - '7'
 
 before_script:
+  - npm -g install npm node-gyp
   - sudo apt-get install build-essential -y
   - npm install -g npm
   - sudo apt-get install -qq python-numpy python-scipy
