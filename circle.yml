@@ -3,9 +3,6 @@ machine:
     version: 6
 
 
-  override:
-    - which node
-
-    # install dependencies
-    - npm install bit-bin
-
+dependencies:
+  post:
+    - npm install -g bit-bin
